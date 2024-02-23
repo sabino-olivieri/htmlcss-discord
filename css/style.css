@@ -42,6 +42,11 @@ body{
     color: white;
 }
 
+.bg-violet {
+    background-color: #7289DA;
+    color: white;
+}
+
 .gap15{
     gap: 15px;
 }
@@ -72,6 +77,13 @@ h2{
 .btn{
     padding: 10px 20px;
     border-radius: 50px;
+}
+
+.btn-small{
+    font-size: 1rem;
+}
+
+.btn-large{
     font-size: 1.2rem;
 }
 
@@ -95,10 +107,9 @@ header{
     
 }
 
-.header-nav, .login>a{
+.header-nav{
     align-items: center;
     font-size: 1rem;
-
 }
 
 .logo, .login{
@@ -178,11 +189,6 @@ main{
     padding: 50px 0px;
 }
 
-.download div > a {
-    background-color: #7289DA;
-    color: white;
-}
-
 /* FOOTER */
 
 /* footer-top */
@@ -251,11 +257,10 @@ hr.container{
 .footer-bottom > div{
     padding: 10px 0px;
     justify-content: space-between;
-    background-color: #7FFFD4;
+    align-items: center;
 }
 
-.logo-ft, button{
-    padding: 2px;
-    background-color: #FFB6C1;
-
+.logo-ft, .footer-botom a{
+    width: 20%;
 }
+
