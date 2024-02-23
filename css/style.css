@@ -1,0 +1,179 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* debug */
+.large-box, .small-box{
+    height: 300px;
+}
+
+.big-box{
+    height: 500px;
+}
+
+.box-header, 
+.large-box, 
+.small-box, 
+.big-box,
+.large-col,
+.logo-ft,
+button{
+    border: 1px dashed black;
+}
+
+/* /debug */
+
+/* COMMON */
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.flex{
+    display: flex;
+}
+
+.pd20{
+    padding: 20px 0px;
+}
+
+.bg-grey{
+    background-color: #D3D3D3;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    all: unset;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+/* header-top */
+header{
+    background-color: #ADD8E6;
+    
+}
+
+.header-nav{
+    background-color: #DAA520;
+    margin-bottom: 10px;
+    align-items: center;
+    
+    /* debug */
+}
+
+.logo, .login{
+    width: 25%;
+    /* debug */
+    border: 1px dashed black;
+}
+
+.login{
+    text-align: right;
+}
+
+.menu{
+    width: 50%;
+    /* debug */
+    border: 1px dashed black;
+}
+
+.logo, .login, .menu{
+    padding: 10px;
+}
+
+.menu-list{
+    justify-content: center;
+    gap: 10px;
+
+}
+
+/* header-bottom */
+
+.header-bottom{
+    background-color: #00008B;
+}
+
+.box-header{
+    background-color: #EE82EE;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+/* MAIN */
+
+
+
+.large-box{
+    background-color: #1E90FF;
+    width: 60%;
+}
+
+.small-box{
+    background-color: #FFC0CB;
+    width: 40%;
+}
+
+.big-box{
+    background-color: #228B22;
+}
+
+/* FOOTER */
+
+/* footer-top */
+
+footer{
+    background-color: #23272A;
+
+}
+
+.pdfooter{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.large-col{
+    width: calc(100% / 5 * 2);
+    background-color: #F08080;
+    /* debug */
+    height: 400px;
+}
+
+.small-col{
+    width: calc(100% / 5);
+    background-color: #20B2AA;
+    /* debug */
+    border: 1px dashed white;
+}
+
+hr{
+    background-color: white;
+    height: 2px;
+
+}
+
+/* footer-bottom */
+.footer-bottom{
+    padding-top: 20px;
+}
+
+.footer-bottom > div{
+    background-color: #7FFFD4;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+.logo-ft, button{
+    padding: 2px;
+    background-color: #FFB6C1;
+
+}
