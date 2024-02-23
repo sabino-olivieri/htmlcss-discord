@@ -10,23 +10,23 @@ img{
 }
 
 /* debug */
-.large-box, .small-box{
+/* .text-box{
     height: 300px;
 }
 
 .big-box{
     height: 500px;
-}
+} */
 
-.box-header, 
-.large-box, 
-.small-box, 
+/* .box-header, 
+.img-box, 
+.text-box, 
 .big-box,
 .large-col,
 .logo-ft,
 button{
     border: 1px dashed black;
-}
+} */
 
 /* /debug */
 
@@ -88,6 +88,7 @@ h1{
 .btn{
     padding: 10px 20px;
     border-radius: 50px;
+    font-size: 1.2rem;
 }
 
 /* BONUS */
@@ -105,20 +106,18 @@ header .btn:hover{
 /* header-top */
 header{
     background-color: #255EE9;
+    padding-top: 10px;
     
 }
 
-.header-nav{
+.header-nav, .login>a{
     align-items: center;
     font-size: 1rem;
-    
-    /* debug */
+
 }
 
 .logo, .login{
     width: 20%;
-    /* debug */
-    border: 1px dashed black;
 }
 
 .login{
@@ -127,12 +126,6 @@ header{
 
 .menu{
     width: 60%;
-    /* debug */
-    border: 1px dashed black;
-}
-
-.logo, .login, .menu{
-    padding: 10px;
 }
 
 .menu-list{
@@ -147,6 +140,7 @@ header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .box-header{
@@ -167,14 +161,18 @@ header{
 
 
 
-.large-box{
-    background-color: #1E90FF;
+.img-box{
     width: 60%;
 }
 
-.small-box{
-    background-color: #FFC0CB;
+.two-col{
+    align-items: center;
+}
+
+.text-box{
     width: 40%;
+    /* padding-top: 40px; */
+    color: black;
 }
 
 .big-box{
