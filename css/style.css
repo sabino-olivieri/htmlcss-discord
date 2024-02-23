@@ -42,6 +42,10 @@ body{
     color: white;
 }
 
+.gap15{
+    gap: 15px;
+}
+
 ul{
     list-style: none;
 }
@@ -51,11 +55,13 @@ a{
     cursor: pointer;
 }
 
-
-
 h1{
     margin-bottom: 20px;
     font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.5rem;
 }
 
 .description{
@@ -75,7 +81,7 @@ h1{
     box-shadow: 2px 2px 10px rgb(0, 0, 0);
 }
 
-.menu-list li > a:hover{
+li > a:hover{
     text-decoration: underline;
 }
 
@@ -109,8 +115,6 @@ header{
 
 .menu-list{
     justify-content: center;
-    gap: 15px;
-
 }
 
 /* header-bottom */
@@ -131,7 +135,6 @@ header{
 
 .header-button{
     justify-content: center;
-    gap: 20px;
     padding: 50px;
 }
 
@@ -140,7 +143,6 @@ header{
 main{
     color: black
 }
-
 
 .img-box{
     width: 60%;
@@ -187,32 +189,58 @@ main{
 
 footer{
     background-color: #23272A;
-
+    color: white;
 }
 
 .pdfooter{
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
 .large-col{
-    width: calc(100% / 5 * 2);
-    /* debug */
-    background-color: #F08080;
-    height: 400px;
+    width: calc(100% / 6 * 2);
+}
+
+.large-col h2{
+    color: #7289DA;
+    margin-bottom: 20px
+}
+.language img{
+    width: 1.2rem;
+}
+
+.icon{
+    padding: 20px 0px;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.language{
+    gap: 5px;
+    align-items: center;
+}
+
+.nation, .language i{
+    font-size: 0.7rem;
 }
 
 .small-col{
     width: calc(100% / 5);
-    /* debug */
-    background-color: #20B2AA;
-    border: 1px dashed white;
+    flex-direction: column;
 }
 
-hr{
-    background-color: white;
-    height: 2px;
+.footer-nav{
+    flex-direction: column;
+    font-size: 0.9rem;
+}
 
+h4{
+    color: #7289DA;
+}
+
+hr.container{
+    border: 1px solid #7289da58;
 }
 
 /* footer-bottom */
