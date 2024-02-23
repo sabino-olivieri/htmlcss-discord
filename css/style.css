@@ -9,32 +9,10 @@ img{
     max-width: 100%;
 }
 
-/* debug */
-/* .text-box{
-    height: 300px;
-}
-
-.big-box{
-    height: 500px;
-} */
-
-/* .box-header, 
-.img-box, 
-.text-box, 
-.big-box,
-.large-col,
-.logo-ft,
-button{
-    border: 1px dashed black;
-} */
-
-/* /debug */
-
 /* COMMON */
 
 body{
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: white;
 }
 
 .container{
@@ -93,7 +71,7 @@ h1{
 
 /* BONUS */
 
-header .btn:hover{
+.btn:hover{
     box-shadow: 2px 2px 10px rgb(0, 0, 0);
 }
 
@@ -107,6 +85,7 @@ header .btn:hover{
 header{
     background-color: #255EE9;
     padding-top: 10px;
+    color: white
     
 }
 
@@ -139,7 +118,7 @@ header{
 .header-bottom{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -158,7 +137,9 @@ header{
 
 
 /* MAIN */
-
+main{
+    color: black
+}
 
 
 .img-box{
@@ -171,12 +152,33 @@ header{
 
 .text-box{
     width: 40%;
-    /* padding-top: 40px; */
-    color: black;
 }
 
 .big-box{
-    background-color: #228B22;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-big-box{
+    text-align: center;
+}
+
+.download{
+    width: 50%;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.download div{
+    padding: 50px 0px;
+}
+
+.download div > a {
+    background-color: #7289DA;
+    color: white;
 }
 
 /* FOOTER */
@@ -195,15 +197,15 @@ footer{
 
 .large-col{
     width: calc(100% / 5 * 2);
-    background-color: #F08080;
     /* debug */
+    background-color: #F08080;
     height: 400px;
 }
 
 .small-col{
     width: calc(100% / 5);
-    background-color: #20B2AA;
     /* debug */
+    background-color: #20B2AA;
     border: 1px dashed white;
 }
 
@@ -219,9 +221,9 @@ hr{
 }
 
 .footer-bottom > div{
-    background-color: #7FFFD4;
     padding: 10px 0px;
     justify-content: space-between;
+    background-color: #7FFFD4;
 }
 
 .logo-ft, button{
