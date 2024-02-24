@@ -90,12 +90,29 @@ h2{
 /* BONUS */
 
 .btn:hover{
-    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    background-color: yellow;
+    color: black;
 }
 
 li > a:hover{
     text-decoration: underline;
 }
+
+.menu-list li > a:hover{
+    color: black;
+}
+footer li:hover{
+    color: #7289DA;
+}
+
+.wave img {
+    width: 100%;
+    filter: invert(94%) sepia(2%) saturate(29%) hue-rotate(57deg) brightness(92%) contrast(90%);
+  }
+
+  .wave-rotate{
+    transform: rotate(180deg);
+  }
 
 /* HEADER */
 
@@ -116,7 +133,7 @@ header{
     width: 20%;
 }
 
-.login{
+.login, .sign-in{
     text-align: right;
 }
 
@@ -126,6 +143,7 @@ header{
 
 .menu-list{
     justify-content: center;
+    
 }
 
 /* header-bottom */
@@ -187,6 +205,10 @@ main{
 
 .download div{
     padding: 50px 0px;
+}
+
+.download div.flex{
+    justify-content: center;
 }
 
 /* FOOTER */
@@ -251,16 +273,11 @@ hr.container{
 
 /* footer-bottom */
 .footer-bottom{
-    padding-top: 20px;
-}
-
-.footer-bottom > div{
-    padding: 10px 0px;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo-ft, .footer-botom a{
+.logo-ft, .sign-in{
     width: 20%;
 }
 
